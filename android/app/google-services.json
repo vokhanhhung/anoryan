@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "241510314497",
+    "firebase_url": "https://anoryan-70dd0.firebaseio.com",
+    "project_id": "anoryan-70dd0",
+    "storage_bucket": "anoryan-70dd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241510314497:android:701301dddb261fdb8d8600",
+        "android_client_info": {
+          "package_name": "com.hungduc.anoryan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241510314497-56uuhm8t1ago08sgsbaothhgi5gi17ct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsyRMURuL8LCyrCHfbdqbU8oAmNCCFgdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241510314497-56uuhm8t1ago08sgsbaothhgi5gi17ct.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
