@@ -11,10 +11,7 @@ class HomeView extends GetView<HomeController> {
         centerTitle: true,
       ),
       body: Center(
-        child: Text(
-          controller.user != null ? controller.user.value.email : 'No user',
-          style: TextStyle(fontSize: 20),
-        ),
+        child: Text('Hello'),
       ),
     );
   }
