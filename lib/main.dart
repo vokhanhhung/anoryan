@@ -3,7 +3,9 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'app/modules/register/bindings/register_binding.dart';
+import 'app/modules/home/bindings/home_binding.dart';
+import 'app/modules/login/bindings/login_binding.dart';
+
 import 'app/routes/app_pages.dart';
 
 void main() async {
@@ -14,8 +16,9 @@ void main() async {
   runApp(
     GetMaterialApp(
       title: "Application",
-      initialRoute: Routes.REGISTER,
-      initialBinding: RegisterBinding(),
+      debugShowCheckedModeBanner: false,
+      initialRoute: Routes.HOME,
+      initialBinding: HomeBinding(),
       getPages: AppPages.routes,
     ),
   );

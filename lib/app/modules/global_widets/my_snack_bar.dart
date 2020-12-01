@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-void showErrorSnackBar(String error) async {
+void showErrorSnackBar(String error) {
   Get.snackbar(
     'Error',
     error,
@@ -9,10 +9,9 @@ void showErrorSnackBar(String error) async {
     colorText: Colors.red,
     backgroundColor: Colors.white,
   );
-  await Future.delayed(Duration(seconds: 2));
 }
 
-void showSuccessSnackBar(String message) async {
+void showSuccessSnackBar(String message) {
   Get.snackbar(
     'Success',
     message,
@@ -20,5 +19,4 @@ void showSuccessSnackBar(String message) async {
     colorText: Colors.blue,
     backgroundColor: Colors.white,
   );
-  await Future.delayed(Duration(seconds: 2));
 }
